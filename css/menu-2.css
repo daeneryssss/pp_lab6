@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url('D:/навчання/практикум з програмування/lab6/assets/background.jpg');
+}
+
+.menu
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 0 0 50px 50px;
+}
+
+.menu-option
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 50px 50px 0 0;
+    padding: 50px;
+    line-height: 1;
+}
+
+.menu-option:hover
+{
+    color: #ff3a65;
+}
+
+.menu-option::before
+{
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 276px;
+    height: 350px;
+    width: 1.5px;
+}
+
+.menu-option::after
+{
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    height: 0.5px;
+    width: 452px;
+}
+
+.menu-exit
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #feb7bf;
+}
+
+.menu-exit:hover
+{
+    color: #ffffff;
+}
